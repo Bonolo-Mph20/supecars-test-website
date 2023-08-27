@@ -1,0 +1,141 @@
+*{
+    margin: O;
+    padding: 0;
+}
+
+.main1{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(H1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #d00000;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #d00000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: ease-in-out;
+}
+
+ul li a:hover{
+    color:#ff7200;
+}
+
+.about{
+    width: 100%;
+    background-color: #191919;
+    height: 109vh;
+}
+
+
+.about img{
+    width: 50%;
+    background-size: cover;
+    float: left;
+    border-radius: 1px;
+    border-color: #d00000;
+    height : 50%;
+}
+
+.about img{
+    width: 50%;
+    background-size: cover;
+    float: right;
+    height: 50%;
+}
+
+.about-text{
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    text-align: left;
+}
+
+.about-text h2{
+    color: #d00000;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    text-transform: capitalize;
+    transition: ease-in-out;
+}
+
+.about-text h2:hover{
+    color: #ff7200;
+    padding-top: 10px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.about-text p{
+    color: #ff7200;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    font-weight: bold
+}
+
+.supercars{
+    width: 100%;
+    background: #191919;
+    height: 109vh;
+}
+
+.title{
+    padding-top: 20px;
+}
+
+
